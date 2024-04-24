@@ -19,7 +19,9 @@ In this research endeavor, an extensive examination of COVID-19 data obtained fr
 <h2>Program walk-through:</h2>
 <h2>1.Data Cleaning: </h2>
 is an essential part of any analysis project during data cleaning unnessary columns were removed followed by replacing null values with zero to avoid discontinous results. A seperate column containg year of reported data was made in-order to check the year-wise trend in pandemic.
-<br /> <p align="center">
+<br />
+<br />
+<p align="center">
 Removing unnecesary columns: <br/>
 <img src="https://imgur.com/1J5jcws.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -32,7 +34,11 @@ Replacing null vlues with zero: <br/>
 <img src="https://imgur.com/enIoa6k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-World wide infection rate:  <br/>
+<h2>1.Data Processing: </h2>
+The data suggested that the total number of people infected eith the covid 19 were 1.55M. with Lativia,Nauru,Australia,Niue showing highest infection rate. also the death count was 4.91M and the total number of people who got vaccinated were found out to be 61.68bn
+<br />
+<br />
+ World wide infection rate:  <br/>
 <img src="https://imgur.com/RL5FMt0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
