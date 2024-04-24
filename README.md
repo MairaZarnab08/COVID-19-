@@ -3,48 +3,61 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this research endeavor, an extensive examination of COVID-19 data obtained from "OUR WORLD IN DATA". Through meticulous data cleaning and analysis procedures, critical metrics including total cases, total fatalities, mortality rates, and infection rates were thoroughly investigated. Employing advanced data visualization techniques, attention was drawn to the top 10 nations exhibiting the highest rates of mortality and infection, alongside an exploration of trends on a continental scale. These findings furnish valuable insights into the global and regional ramifications of the COVID-19 pandemic, offering a nuanced understanding of its impact on different parts of the world.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>SQL</b> 
+- <b>Power BI</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>SQL Server </b> (Windows 10)
 
 <h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>1.Data Cleaning: </h2>
+is an essential part of any analysis project during data cleaning unnessary columns were removed followed by replacing null values with zero to avoid discontinous results. A seperate column containg year of reported data was made in-order to check the year-wise trend in pandemic.
+<br /> <p align="center">
+Removing unnecesary columns: <br/>
+<img src="https://imgur.com/1J5jcws.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Replacing null vlues with zero: <br/>
+<img src="https://imgur.com/gdhIw1n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Adding a column for Year:  <br/>
+<img src="https://imgur.com/enIoa6k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+World wide infection rate:  <br/>
+<img src="https://imgur.com/RL5FMt0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+10 countries with highest infection rate: <br/>
+<img src="https://imgur.com/aJrVjjd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Total Death count: <br/>
+<img src="https://imgur.com/9Zw4htd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Year wise death count:  <br/>
+<img src="https://imgur.com/OCY8G4q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+10 countries with highest Death count:  <br/>
+<img src="https://imgur.com/LlR4C6w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Total number of people vaccinated:  <br/>
+<img src="https://imgur.com/wB4MKjG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Total Number of people vaccinated per year:  <br/>
+<img src="https://imgur.com/K9fryC3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
